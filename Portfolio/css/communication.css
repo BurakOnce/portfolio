@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  background-image: url(/geometric1.jpg);
+  background-size:1650px;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #35495e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  bottom: 500px;
+  background-image: url(/geometric1.jpg);
+  background-size:1650px;
+  background-repeat: no-repeat;
+}
+
+#LinkdIn {
+  color: #35495e;
+  font-weight: bold;
+  position:relative;
+  left: 700px;
+  top:130px;
+  font-size: 30px;
+}
+
+#Github {
+  color: #35495e;
+  font-weight: bold;
+  position:relative;
+  left: 710px;
+  top:130px;
+  font-size: 30px;
+}
+
+#Gmail {
+  color: #35495e;
+  font-weight: bold;
+  position:relative;
+  left: 715px;
+  top:130px;
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 1rem;
+}
+
+a {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+#showCommunicationPageButton,
+#showMainPageButton,
+#showAboutPageButton {
+  background-color: transparent;
+  border-style: groove;
+  border-color: #f4f4f4;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 14px;
+  width:140px
+
+}

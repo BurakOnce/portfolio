@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  text-align: center;
+  background-image: url(/geometric6.jpg);
+  background-size:1550px;
+  background-repeat: no-repeat;
+  font-weight: bold;
+}
+
+header {
+  background-color: #35495e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  bottom: 500px;
+  background-image: url(/geometric6.jpg);
+  background-size:1550px;
+  background-repeat: no-repeat;
+}
+
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1{
+  font-size: 26px;
+  margin-bottom: 1rem;
+}
+
+
+p {
+  font-size: 14px;
+  line-height: 2;
+  border-style: groove;
+  border-radius: 20px;
+  padding:1px;
+  margin-right: 13rem;
+  margin-left: 13rem;
+}
+
+#content{
+  font-size: 16px;
+  color: white;
+  line-height: 1.6;
+  border-style: groove;
+  border-color: #2b2b2c;
+  border-radius: 20px;
+  padding:15px;
+  margin-right: 30rem;
+  margin-left: 30rem;
+}
+
+
+.skills,
+.lessons {
+  display: flex;
+  justify-content: center; /*yatayda ortalama*/
+  align-items: center; /*dikeyde ortalama*/
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  text-shadow: #2b2b2c;
+}
+
+.lesson {
+  background-color: transparent;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-shadow: #2b2b2c;
+  box-shadow: 0 4px 8px 0 rgb(43, 43, 44), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.skill {
+  background-color: transparent;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-shadow: #2b2b2c;
+  box-shadow: 0 4px 8px 0 rgb(43, 43, 44), 0 6px 20px 0 rgb(43, 43, 44);
+
+
+}
+
+#showCommunicationPageButton,
+#showMainPageButton,
+#showAboutPageButton {
+  background-color: transparent;
+  border-style: groove;
+  border-color: #f4f4f4;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 14px;
+  width:140px
+
+}

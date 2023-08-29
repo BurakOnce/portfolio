@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  background-image: url(/geometric3.jpg);
+  background-size:1650px;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #ffffff;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  bottom: 500px;
+  background-image: url(/geometric3.jpg);
+  background-size:1650px;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 1rem;
+}
+
+p {
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.6;
+}
+
+#showCommunicationPageButton,
+#showMainPageButton,
+#showAboutPageButton {
+  background-color: transparent;
+  border-style: groove;
+  border-color: #f4f4f4;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 14px;
+  width:140px
+
+}
+
+
+
+
